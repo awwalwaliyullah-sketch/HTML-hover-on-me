@@ -1,0 +1,35 @@
+#text{
+    text-align: center;
+    margin: 50px;
+    font-size: 5rem;
+    font-weight: 900;
+    color: transparent;
+    -webkit-text-stroke: 2px #aaa;
+    position: relative;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+    transition: 0.3s;
+
+}
+
+
+
+#text:hover{
+    background: linear-gradient(90deg, #ff0055,#fff700,#00ffcc,#ff0055);
+    background-size: 300% 100%;
+    background-clip:text;
+    -webkit-text-stroke: 3px transparent;
+    animation: vibrant 4s linear infinite;
+
+}
+
+@keyframes vibrant{
+    to{
+        background-position:300%  0;
+    }
+}
+
+ 
+  
+    
